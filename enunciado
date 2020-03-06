@@ -1,0 +1,16 @@
+Exercicio a Entregar 1
+Escribir unha clase Java que defina unha clase Lampada coas seguintes características:
+
+Ten un consumo en Watios, que é un número enteiro entre 0 e 250
+Ten unha luminosidade máxima en lúmenes, que é un número entre 0 e 100.000
+Ten unha luminosidade mínima en lúmenes que é un número entre 1 e 100.000
+A luminosidade actual da lámpada en lúmenes
+As lámpadas desta clase deben poder:
+
+Encenderse. Cando se encenden, se poñen á luminosidade mínima e visualizan unha mensaxe indicando que están encendidas e a súa luminosidade entre paréntese ( On(1) )
+Apagarse. Cando se apagan, poñen a luminosidade 0 e visualizan unha mensaxe indicando que están apagadas (Off())
+Cambiar a luminosidade indicando a luminosidade desexada, e si é admisible pola lámpada se establecerá e se visualizará unha mensaxe On(luminosidade actual). Si a luminosidade é excesiva se lanzará unha Exception indicando a circunstancia. Si a lámpada está apagada, non ten efecto.
+Incrementar/Decrementar a luminosidade indicando o incremento/decremento desexado mediante un número positivo ou negativo. Se visualizará unha mensaxe  On (luminosidade actual). Si a lámpada está apagada, non ten efecto. Si a luminosidade resultante excede o límite debe lanzar unha Exception notificando ese feito.
+Se Pide:
+
+ O código fonte Java coa implementación desta clase.
