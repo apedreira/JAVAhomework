@@ -2,9 +2,8 @@ package ejercicio01.entity;
 
 public class Persona {
 
-    String nombre;
-    int edad;
-    float altura;
+	// Atributos de clase siempre privados, elimino los atributos (idade, altura) no utilizados en este ejercicio
+    private String nombre;
 
     public String consultaNome() {
         return nombre;
