@@ -1,6 +1,6 @@
 package com.adrian.actividad03;
 
-import ejercicio03.entity.Persona;
+import com.adrian.actividad03.entity.Persona;
 
 public class Main {
 
